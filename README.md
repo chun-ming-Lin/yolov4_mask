@@ -25,3 +25,4 @@ detect_chinese.py
 
 
 # How do I train my model?
+Download [dataset] (https://drive.google.com/file/d/1qe0_oHBZGu6xDTgT-sLs3Qm87KsJteWu/view?usp=sharing)
