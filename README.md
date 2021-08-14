@@ -19,14 +19,15 @@ Download [My .h5 file](https://drive.google.com/file/d/16jJf6fI0iV-8I4oKKPJv9Nyo
 # detect with your webcam
 python detect_webcam.py
 
-# detect single image 
-python detect_image.py --input=" your image path " --output=" output path " 
-
-# detect video and save it
-python detect_video.py --input=" your video path " --output=" output path "
-
 # if you have freetype module
 detect_chinese.py
+
+# detect single image (freetype)
+python detect_image.py --input=" your image path " --output=" output path " 
+
+# detect video and save it (freetype)
+python detect_video.py --input=" your video path " --output=" output path "
+
 ```
 #### If you want to build opencv with freetype module, check [this](https://github.com/BabaGodPikin/Build-OpenCv-for-Python-with-Extra-Modules-Windows-10)
 
