@@ -1,7 +1,7 @@
 
 # Detect mask, use yolov4 and keras 
 
-<img src='https://i.imgur.com/dn8kOxQ.gif'>
+<img src='https://i.imgur.com/dn8kOxQ.gif' width=300 height=400>
 
 ## Development Process
 - 1. [Use official darknet to train](#train_model) (YOLOv4: https://github.com/AlexeyAB/darknet/)
