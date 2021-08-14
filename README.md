@@ -1,5 +1,5 @@
 
-# Detect mask, use yolo and keras 
+# Detect mask, use yolov4 and keras 
 
 ## Development Process
 - 1. [Use official darknet to train](#train_model) (YOLOv4: https://github.com/AlexeyAB/darknet/)
@@ -23,6 +23,7 @@ python detect_video.py
 # if you have freetype module
 detect_chinese.py
 ```
+
 
 
 # How do I train my model?
