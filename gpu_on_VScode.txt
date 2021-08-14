@@ -1,0 +1,1 @@
+Ctrl + Shift +P  -> Preferences: Configure Runtime Arguments -> "disable-hardware-acceleration": true
