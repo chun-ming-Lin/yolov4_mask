@@ -1,9 +1,10 @@
+
 # Detect mask, use yolo and keras 
 
 ## Development Process
-1. Use official darknet to train (YOLOv4: https://github.com/AlexeyAB/darknet/)
-2. Convert to Tensorflow model & save as .pb files  (Officail TF model: https://github.com/hunglc007/tensorflow-yolov4-tflite)
-3. Use Keras load model and use it
+- 1. [Use official darknet to train](#train_model) (YOLOv4: https://github.com/AlexeyAB/darknet/)
+- 2. [Convert to Tensorflow model & save as .pb files](#convert_model)  (Officail TF model: https://github.com/hunglc007/tensorflow-yolov4-tflite)
+- 3. Use Keras load model and use it
 
 ## Requirements: Tensorflow 2.5:arrow_up:  , opencv
 Optional: freetype
@@ -27,5 +28,5 @@ detect_chinese.py
 # How do I train my model?
 Download [dataset](https://drive.google.com/file/d/1qe0_oHBZGu6xDTgT-sLs3Qm87KsJteWu/view?usp=sharing)
 
-I train my model on colab, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/YOLOv4_mask.ipynb).  <br>
-Convert to tensorflow, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/yolo_convert_keras_h5.ipynb)
+- <a name="train_model"></a> I train my model on colab, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/YOLOv4_mask.ipynb).  <br>
+- <a name="convert_model"></a> Convert to tensorflow, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/yolo_convert_keras_h5.ipynb)
