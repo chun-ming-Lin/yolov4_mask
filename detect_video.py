@@ -71,7 +71,7 @@ def yolov4_mask_detect(model, image):
         )
     return img_original
 
-capture = cv2.VideoCapture('mask2.mp4')
+capture = cv2.VideoCapture('./test/405193.mp4')
 fourcc = cv2.VideoWriter_fourcc(*'XVID') # *'DIVX', *'XVID', *'MJPG', *'MP4V'
 width = int(capture.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
