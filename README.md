@@ -1,6 +1,8 @@
 
 # Detect mask, use yolov4 and keras 
 
+<img src='https://i.imgur.com/dn8kOxQ.gif'>
+
 ## Development Process
 - 1. [Use official darknet to train](#train_model) (YOLOv4: https://github.com/AlexeyAB/darknet/)
 - 2. [Convert to Tensorflow model & save as .pb files](#convert_model)  (Officail TF model: https://github.com/hunglc007/tensorflow-yolov4-tflite)
