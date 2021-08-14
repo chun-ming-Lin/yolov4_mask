@@ -25,4 +25,7 @@ detect_chinese.py
 
 
 # How do I train my model?
-Download [dataset] (https://drive.google.com/file/d/1qe0_oHBZGu6xDTgT-sLs3Qm87KsJteWu/view?usp=sharing)
+Download [dataset](https://drive.google.com/file/d/1qe0_oHBZGu6xDTgT-sLs3Qm87KsJteWu/view?usp=sharing)
+
+I train my model on colab, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/YOLOv4_mask.ipynb).  <br>
+Convert to tensorflow, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/yolo_convert_keras_h5.ipynb)
