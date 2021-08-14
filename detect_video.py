@@ -1,6 +1,12 @@
 import tensorflow as tf
 import cv2
 import numpy as np
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--input', type=str, help='input video path', required=True)
+parser.add_argument('--output', type=str, help='output video path', default='./output.avi')
+args = parser.parse_args()
 
 model = tf.keras.models.load_model('yolov4_mask.h5')
 classes = ['口罩沒戴好', '沒戴口罩', '有戴口罩']
@@ -71,13 +77,13 @@ def yolov4_mask_detect(model, image):
         )
     return img_original
 
-capture = cv2.VideoCapture('./test/405193.mp4')
+capture = cv2.VideoCapture(args.input)
 fourcc = cv2.VideoWriter_fourcc(*'XVID') # *'DIVX', *'XVID', *'MJPG', *'MP4V'
 width = int(capture.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(capture.get(cv2.CAP_PROP_FPS))
 
-out = cv2.VideoWriter('output.avi', fourcc, fps, (width, height))
+out = cv2.VideoWriter(args.output, fourcc, fps, (width, height))
 print(width, height, 'fps:',fps)
 print('開始偵測')
 while (capture.isOpened()):

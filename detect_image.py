@@ -1,6 +1,13 @@
+from sys import path
 import tensorflow as tf
 import cv2
 import numpy as np
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--input', type=str, help='input image path', required=True)
+parser.add_argument('--output', type=str, help='output image path', default='./output.jpg')
+args = parser.parse_args()
 
 model = tf.keras.models.load_model('yolov4_mask.h5')
 classes = ['口罩沒戴好', '沒戴口罩', '有戴口罩']
@@ -71,6 +78,9 @@ def yolov4_mask_detect(model, image):
         )
     return img_original
 
-img = cv2.imread('./test/S__153354277.jpg')
+img = cv2.imread(args.input)
 img = yolov4_mask_detect(model, img)
-cv2.imwrite('./test/output.jpg', img)
+cv2.imwrite(args.output, img)
+cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+cv2.imshow('image', img)
+cv2.waitKey(0)
