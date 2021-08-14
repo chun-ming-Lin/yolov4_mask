@@ -1,7 +1,7 @@
 
 # Detect mask, use yolov4 and keras 
 
-<img src='https://i.imgur.com/dn8kOxQ.gif' width=300 height=400>
+<img src="https://github.com/chun-ming-Lin/yolov4_mask/blob/master/demo/output%20(1).gif" width="270" height="480" /> <img src="https://github.com/chun-ming-Lin/yolov4_mask/blob/master/demo/output%20(2).gif" width="270" height="480" />
 
 ## Development Process
 - 1. [Use official darknet to train](#train_model) (YOLOv4: https://github.com/AlexeyAB/darknet/)
@@ -18,6 +18,9 @@ Download [My .h5 file](https://drive.google.com/file/d/16jJf6fI0iV-8I4oKKPJv9Nyo
 ```
 # detect with your webcam
 python detect_webcam.py
+
+# detect single image 
+
 
 # detect video and save it
 python detect_video.py
