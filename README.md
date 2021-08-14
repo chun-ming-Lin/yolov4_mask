@@ -6,7 +6,7 @@
 - 2. [Convert to Tensorflow model & save as .pb files](#convert_model)  (Officail TF model: https://github.com/hunglc007/tensorflow-yolov4-tflite)
 - 3. Use Keras load model and use it
 
-## Requirements: Tensorflow 2.5:arrow_up:  , opencv
+## Requirements: Tensorflow 2.5:arrow_up:  , opencv 4.5.3
 Optional: freetype
 
 ## How to use my python scripts
