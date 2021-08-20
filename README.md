@@ -38,3 +38,6 @@ Download [dataset](https://drive.google.com/file/d/1qe0_oHBZGu6xDTgT-sLs3Qm87KsJ
 - <a name="train_model"></a> I train my model on colab, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/YOLOv4_mask.ipynb).  <br>
 - <a name="convert_model"></a> Convert to tensorflow, this is my [Code](https://github.com/chun-ming-Lin/yolov4_mask/blob/master/colab/yolo_convert_keras_h5.ipynb)
 
+## train history
+<img src=https://github.com/chun-ming-Lin/yolov4_mask/blob/master/chart1.jpeg width='500' height='500' />
+<img  src=https://github.com/chun-ming-Lin/yolov4_mask/blob/master/chart2.jpeg width='500' height'500' />
